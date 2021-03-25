@@ -13,7 +13,7 @@ int main()
     }
     prime[0]=0;
     prime[1]=0;
-    for(int i=2;i<n;i++)
+    for(int i=2;i<sqrt(n);i++)
     {
         if(prime[i]==1)
         {
@@ -31,3 +31,4 @@ int main()
         cout<<i<<" is not a prime number"<<endl;
     }
 }
+ 
