@@ -7,7 +7,7 @@ int main()
     int count =0;
     while(n>0)
     {
-        n=(n&(n-1));
+        n=(n&(n-1));//always change  the right most set bit to zero;
         count++;
     }
     cout<<count;
