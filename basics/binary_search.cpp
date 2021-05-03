@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    int a[6]={10,20,30,40,50,60};
+    int a[6]={10,20,30,40,50,600};
     int x=40;
     int low=0, high=6;
     while(low<high)
@@ -17,4 +17,5 @@ int main()
         else if (x>a[mid]) low=mid+1;
         else if (x<a[mid]) high =mid-1;
     }
+
 } 
