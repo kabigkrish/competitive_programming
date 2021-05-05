@@ -4,9 +4,9 @@ using namespace std;
 int main()
 {
     int a[6]={10,20,30,40,50,600};
-    int x=40;
+    int x=30;
     int low=0, high=6;
-    while(low<high)
+    while(low<=high)
     {
         int mid=(low+high)/2;
         if(x==a[mid]) 
