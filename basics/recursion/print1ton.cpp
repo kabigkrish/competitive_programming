@@ -13,3 +13,12 @@ int main()
     cin>>n;
     print1ton(n);
 }
+
+/*not tail recursive solution 
+
+that is there is some part of code after recursion which will take more time to execute
+than tail recursive method.
+
+tail recursive code is optimised by modern compilers which will reduce space.
+
+*/
