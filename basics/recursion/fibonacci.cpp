@@ -7,7 +7,7 @@ int  fib(int n)
              n==1 return 1*/
 
     if(n<=1) return n;
-    return fib(n-2)*fib(n-1);
+    return fib(n-2)+fib(n-1);
 }
 int main()
 {

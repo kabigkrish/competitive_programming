@@ -2,6 +2,8 @@
 using namespace std;
 void bubble_sort(int a[],int n)
 {
+    //stable sorting algorithm
+    //o(n^2)
     //optimization
     //use a swaped variable ,set it to false after every iteration;
     //change it to true after swaping any element of array

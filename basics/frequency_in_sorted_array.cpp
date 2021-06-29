@@ -8,7 +8,7 @@ int main()
     vector<int>out;
     for(int i=1;i<6;i++)
     {
-        if(a[i-1]==a[i])
+        if(a[i-1]==a[i])//check current element is same as previous if yes increment freq else print freq and inialize it to 1;
         freq+=1;
         else
         {

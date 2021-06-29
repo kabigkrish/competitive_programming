@@ -44,6 +44,6 @@ int count_trailing_zero(int n)
 }
 int main()
 {
-    int n=100;// number for which you need to find the trailing zero in its factorial
+    int n=4;// number for which you need to find the trailing zero in its factorial
     cout<<count_trailing_zero(n);
 }
