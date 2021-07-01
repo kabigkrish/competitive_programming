@@ -9,7 +9,10 @@ void intersect(int a[],int b[])
         if(s_a.find(b[j])!=s_a.end())
         {
             res++;
-            s_a.erase(b[j]);
+            s_a.erase(b[j]);//to avoid duplicates like 
+            //in b array if we have {1,1,1,2,2,3,3} here there are duplicates to avoid that 
+            // we remove from a as soon as we increment the counter 
+            // orelse we need to conver array b also to set then do it normaly to avoid duplicates
         }
     }
     cout<<res;
