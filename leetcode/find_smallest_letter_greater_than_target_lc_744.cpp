@@ -42,6 +42,8 @@
 //     letters has a length in range [2, 10000].
 //     letters consists of lowercase letters, and contains at least 2 unique letters.
 //     target is a lowercase letter.
+#include<bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
 char nextGreatestLetter(vector<char>& letters, char target) 
@@ -53,4 +55,8 @@ char nextGreatestLetter(vector<char>& letters, char target)
     return letters[idx];  
    
 }
-};
+}; 
+int main()
+{
+    
+}
