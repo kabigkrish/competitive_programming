@@ -27,4 +27,8 @@
          strname.substr(begining index,length of substring)
 
          strname.find("abac") returns the starting index of the passed string i.e index of a; 
+ 
+        strlen wont work use stringname.size()
+
+        none of the c styled functions work with cpp styled functions
  */
